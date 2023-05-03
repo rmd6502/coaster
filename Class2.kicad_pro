@@ -474,6 +474,10 @@
       {
         "netclass": "power",
         "pattern": "/VUSB"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/VBat_switched"
       }
     ]
   },
