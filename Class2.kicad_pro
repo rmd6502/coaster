@@ -195,7 +195,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_driven|355600|546100|34ca3d18-1dd5-4d42-90fd-61701a29b88b|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -398,7 +400,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -489,8 +491,8 @@
       "idf": "",
       "netlist": "../../../../../Applications/KiCad/",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "Class2.step",
+      "vrml": "Class2.wrl"
     },
     "page_layout_descr_file": ""
   },
